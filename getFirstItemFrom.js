@@ -2,6 +2,8 @@
 
 const prompt = require('prompt-sync')({sigint: true});
 
+
+//Get first item
 /*
 let userArray = JSON.parse(prompt("Please enter an array: " ));
 let userItem= userArray[0]
@@ -9,21 +11,19 @@ let userItem= userArray[0]
 console.log("The first item is: " + userItem);
 
 
-// ["Hello", "Darkness", "Myold, "Friend"]
-
 */
 
 
 /*
 
-
+//Get last item 
 let userArray = JSON.parse(prompt("Please enter an array: " ));
 let userItem= userArray[userArray.length-1]
 
 console.log("The last item is: " + userItem  );
 */
 
-
+//Index 3
 /*Array prompt 
 let userArray = JSON.parse(prompt("Please enter an array: " ));
 let firstPosition= userArray[0];
@@ -45,7 +45,7 @@ console.log("The last item is: " + lastPosition);
 // less than 10 
 
 
-
+//Long list 
 let userArray = JSON.parse(prompt("Please enter an array: " ));
 let lessThan10 = false 
 let num = userArray.length;
@@ -70,7 +70,7 @@ else {
 
 
 
-
+// ["Hello", "Darkness", "Myold, "Friend"]
 
 
 
