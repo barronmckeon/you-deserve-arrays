@@ -9,18 +9,54 @@ let userItem= userArray[0]
 console.log("The first item is: " + userItem);
 
 
-// ["Hello", "Darkness", "MyOnly", "Friend"]
+// ["Hello", "Darkness", "Myold, "Friend"]
 
 */
 
 
-
+/*
 
 
 let userArray = JSON.parse(prompt("Please enter an array: " ));
 let userItem= userArray[userArray.length-1]
 
 console.log("The last item is: " + userItem  );
+*/
+
+
+/*Array prompt 
+let userArray = JSON.parse(prompt("Please enter an array: " ));
+let firstPosition= userArray[0];
+let thirdPosition = userArray[2];
+let totalLength =   userArray.length;
+let lastPosition = userArray[totalLength-1];
+
+
+if (userArray = thirdPosition){
+    console.log("The third item is: " + thirdPosition  );
+
+
+}else{
+
+console.log("The last item is: " + lastPosition);
+}
+*/
+
+// less than 10 
+
+
+
+let userArray = JSON.parse(prompt("Please enter an array: " ));
+let lessThan10 = false 
+let num = userArray.length;
+
+if (num < 10){
+    lessThan10=true;
+    console.log(lessThan10);
+}
+else {
+    console.log(lessThan10);
+}
 
 
 

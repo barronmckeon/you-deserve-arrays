@@ -2,6 +2,7 @@
   "dependencies": {
     "prompt": "^1.2.1",
     "prompt-sync": "^4.1.6",
-    "sync": "^0.2.5"
+    "sync": "^0.2.5",
+    "synch": "^1.0.0"
   }
 }
