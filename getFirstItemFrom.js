@@ -46,6 +46,7 @@ console.log("The last item is: " + lastPosition);
 
 
 //Long list 
+/*
 let userArray = JSON.parse(prompt("Please enter an array: " ));
 let lessThan10 = false 
 let num = userArray.length;
@@ -57,10 +58,22 @@ if (num < 10){
 else {
     console.log(lessThan10);
 }
+*/
 
 
+//First item number
 
+let userArray = JSON.parse(prompt("Please enter an array: " ));
+let lessThan10 = false 
+let num = userArray.length;
 
+if (num < 10){
+    lessThan10=true;
+    console.log(lessThan10);
+}
+else {
+    console.log(lessThan10);
+}
 
 
 
